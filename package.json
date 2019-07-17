@@ -1,0 +1,24 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "Product Updation and deletion",
+  "main": "app.js",
+  "scripts": {
+  "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anukriti Jha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.18.3",
+    "debug": "~2.2.0",
+    "express-messages": "*",
+    "express-session": "^1.15.6",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "multer": "*"
+  }
+}
